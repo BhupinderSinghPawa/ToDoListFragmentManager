@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ToDoListFragmentManager</string>
+    <string name="helloblankfragment">Hello blank fragment</string>
+    <string name="addItemHint">New To Do Item</string>
+    <string name="addItemContentDescription">New To Do Item</string>
+    <string name="package_name">com.example.todolist</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

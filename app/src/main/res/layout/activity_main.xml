@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/entry_container"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+        />
+
+        <FrameLayout
+            android:id="@+id/details_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+        />
+
+
+        <!--
+        <fragment
+            android:name="com.example.todolistfragmentmanager.NewItemFragment"
+            android:id="@+id/NewItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment android:name="com.example.todolistfragmentmanager.ToDoListFragment"
+            android:id="@+id/ToDoListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+         -->
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
